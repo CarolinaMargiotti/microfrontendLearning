@@ -11,7 +11,7 @@ module.exports = {
 			name: "cart",
 			filename: "remoteEntry.js",
 			exposes: {
-				"./CartShow": "./src/index.js",
+				"./CartShow": "./src/bootstrap.js",
 			},
 			shared: ["faker"],
 			// in this state it'll still download multiple fakers if other projects imported use a different incompatible version
